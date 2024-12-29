@@ -101,7 +101,7 @@ Implementación interactiva del "Juego de la Vida" de Conway usando tecnologías
 ```bash
 # Clonar repositorio
 git clone <url-repositorio>
-cd automata
+cd automata-celular
 
 # Crear entorno virtual
 python -m venv venv
@@ -120,11 +120,11 @@ pip install -r requirements.txt
 ```bash
 # Clonar repositorio
 git clone <url-repositorio>
-cd automata
+cd automata-celular
 
 # Crear entorno conda
-conda create -n automata python=3.8
-conda activate automata
+conda create -n automata-venv python=3.8
+conda activate automata-venv
 
 # Instalar dependencias
 pip install -r requirements.txt
