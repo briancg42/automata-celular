@@ -170,9 +170,7 @@ Esta versión refleja:
 
 ## 🎥 Demo
 
-<video width="100%" controls>
-  <source src="demo/video_2024-12-28.mp4" type="video/mp4">
-</video>
+https://media.githubusercontent.com/media/briancg42/automata-celular/main/demo/video_2024-12-28.mp4
 
 Este video muestra:
 - Inicialización aleatoria del autómata
@@ -180,8 +178,6 @@ Este video muestra:
 - Animación fluida usando Canvas
 - Comportamiento de las células según las reglas de Conway
 </details>
-
-https://user-images.githubusercontent.com/briancg42/automata-celular/assets/video_2024-12-28.mp4
 
 
 ### Implementación Actual
