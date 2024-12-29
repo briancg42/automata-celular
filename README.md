@@ -170,14 +170,26 @@ Esta versión refleja:
 
 ## 🎥 Demo
 
-https://media.githubusercontent.com/media/briancg42/automata-celular/main/demo/video_2024-12-28.mp4
-
 Este video muestra:
 - Inicialización aleatoria del autómata
 - Controles de color en tiempo real
 - Animación fluida usando Canvas
 - Comportamiento de las células según las reglas de Conway
-</details>
+
+https://media.githubusercontent.com/media/briancg42/automata-celular/main/demo/video_2024-12-28.mp4
+
+
+<a href="https://streamable.com/[tu-video-id]" target="_blank">
+  <img src="./demo/thumbnail.png" alt="Ver Demo" style="max-width:100%;">
+</a>
+
+[Ver demo del Autómata Celular](https://streamable.com/vybuys)
+
+<div align="center">
+  <a href="https://streamable.com/vybuys">
+    <img src="https://streamable.com/vybuys/preview" alt="Demo del Autómata Celular" width="600">
+  </a>
+</div>
 
 
 ### Implementación Actual
