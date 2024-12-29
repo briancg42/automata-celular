@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cellular Automata Animation</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        #cellular-automata {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .cellular-automata-controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .control-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="color"] {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <canvas id="cellular-automata"></canvas>
+        <div class="cellular-automata-controls">
+            <div class="control-group">
+                <label for="startColor">Start Color:</label>
+                <input type="color" id="startColor" value="#007bff">
+            </div>
+            <div class="control-group">
+                <label for="endColor">End Color:</label>
+                <input type="color" id="endColor" value="#17a2b8">
+            </div>
+            <div class="control-group">
+                <label for="backgroundColor">Background Color:</label>
+                <input type="color" id="backgroundColor" value="#000000">
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', path='/js/main.js') }}"></script>
+</body>
+</html>
