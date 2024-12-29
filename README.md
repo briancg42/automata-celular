@@ -170,14 +170,7 @@ Esta versión refleja:
 
 ## 🎥 Demo
 
-![Demo Video](demo/video_2024-12-28.mp4)
-
-Alternative syntax:
-<video width="100%" controls>
-  <source src="demo/video_2024-12-28.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+https://github.com/briancg42/automata-celular/assets/demo/video_2024-12-28.mp4?raw=true
 
 <details>
 <summary>📝 Ver instrucciones de video</summary>
