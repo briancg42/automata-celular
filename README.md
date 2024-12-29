@@ -170,7 +170,7 @@ Esta versión refleja:
 
 ## 🎥 Demo
 
-https://github.com/briancg42/automata-celular/assets/demo/video_2024-12-28.mp4?raw=true
+https://raw.githubusercontent.com/briancg42/automata-celular/main/demo/video_2024-12-28.mp4
 
 <details>
 <summary>📝 Ver instrucciones de video</summary>
